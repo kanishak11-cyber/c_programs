@@ -1,5 +1,5 @@
 //write a program to print the sum of two number using double pointer.
-#include<process.h>
+
 #include<stdio.h>
 int main()
 {
@@ -14,6 +14,5 @@ int main()
     b=&c;
     sum = *a+**b;
     printf("%i",sum);
-    exit(0);
     return 0;
 }
