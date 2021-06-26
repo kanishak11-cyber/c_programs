@@ -13,6 +13,6 @@ int main()
     c=&y;
     b=&c;
     sum = *a+**b;
-    printf("%i",sum);
+    printf("sum of %i + %i = %i",x,y,sum);
     return 0;
 }
